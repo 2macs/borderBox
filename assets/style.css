@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+    
+}
+*,*.before,*.after{
+    box-sizing: inherit;
+}
+.container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;    
+    text-align: center;    
+    align-items: center;
+}
+
+
+.first-box-container {
+    width: 30vw;
+    height:300px;
+    padding: 20px;
+    border: 8px dashed purple;
+    background-color: orangered;
+    color: white;
+    font-size: 24px;     
+    
+    }
+
+.second-box-container {
+    width: 40vw;
+    height:300px;
+    /*padding: 20px; */
+    border: 8px aqua;
+    border-style: solid double dotted dashed;
+    background-color: steelblue;
+    color: white;
+    font-size: 24px;
+    align-self: flex-start;
+    
+}
